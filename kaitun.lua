@@ -1,46 +1,34 @@
-repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 getgenv().Config = {
-    ["Auto Farm"] = true,
-    ["Settings"] = {
-        ["FPS Boost"] = true,
-    } ,
-    ["Melee"] = {
-        ["All Melee V1"] = true,
-        ["Super Huamn"] = true,
-        ["Dragon Talon"] = true,
-        ["Sharkman Karate"] = true,
-        ["Elechic Claw"] = true,
-        ["GodHuman"] = true,
-    },
-    ["Sword"] = {
-        ["All Sword"] = true,
-        ["Saber"] = true,
-        ["Pole"] = true,
-        ["Rengoku"] = true,
-        ["Midnight Blade"] = true,
-        ["Soul Cane"] = true,
-        ["Gravity Cane"] = true,
-        ["Dragon Trident"] = true,
-        ["Legendary Sword"] = true,
-        ["True Triple Katana"] = true,
-        ["Twin Hooks"] = true,
-        ["Canvander"] = true,
-        ["Buddy Sword"] = true,
+    ["Setting"] = {
+        ["UiCheckItem"] = false,
+        ["White Screen"] = false
+    },       
+    ["MainItem"] = {
+        ["Saber"] = true,         
         ["Hallow Scythe"] = true,
-        ["Yama"] = true,
-        ["Tushita"] = true,
-        ["Cursed Dual Katana"] = true,
+        ["GodHuman"] = true,
+        ["Skull Guitar"] = true,
+        ["Cursed Dual Katana"] = true
     },
-    ["Gun"] = {
-        ["All Gun"] = true,
-        ["Acidum Rifle"] = true,
-        ["Kabucha"] = true,
-        ["Serpent Bow"] = true,
-        ["Soul Guitar"] = true,
+    ["MiscItem"] = {
+        ["Feathered Visage"] = true,
+        ["Pole1st"] = true,
+        ["Dragon Trident"] = true,
+        ["Spikey Trident"] = true,
+        ["Buddy"] = true,
+        ["Cavender"] = true,
+        ["Twin Hooks"] = true,
+        ["Gravity Blade"] = true,
+        ["Venom Bow"] = true
     },
-    ["Race"] = {
-        ["Auto V2"] = true,
-        ["Auto V3"] = true,
+    ["Quest"] = {
+        ["Race V2"] = true,
+        ["Race V3"] = true,
+        ["Haki Rainbow"] = true
     },
+    ["Webhook"] = {
+        ["Enable"] = false,
+        ["UrlWebhook"] = "",
+    }
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/HieuDepTrai-Z/Dev_OrangeVip/refs/heads/main/OrangeKaitun.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/KaitunBloxFruits.lua"))()
